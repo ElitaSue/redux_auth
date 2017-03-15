@@ -26,7 +26,7 @@ module.exports = {
         options: { cacheDirectory: true }
       },
       {
-        test: /\.(jpe?g|png\gif\svg)$/i,
+        test: /\.(jpe?g|png|gif|svg)$/i,
         loader: 'url-loader',
         include: [ path.join(__dirname, "..", "client") ],
       },
